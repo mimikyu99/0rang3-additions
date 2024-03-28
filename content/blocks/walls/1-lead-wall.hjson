@@ -3,3 +3,7 @@ name:"leadWall"
   size: 1
   health: 280
   research: "copperWallLarge"
+type:Wall
+requirements:[
+lead/150
+]
