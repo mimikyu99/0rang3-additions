@@ -11,5 +11,5 @@ parent:"1-silicon-wall"
   silicon/1500
   ]
   }
-category: defense
-  type: Walls
+category: "defense"
+  type: "Walls"
