@@ -1,9 +1,11 @@
-name:"leadWall"
-  description:"A lead wall. Releases electric arcs"
+name:Lead Wall
+  description:A lead wall. Releases electric arcs damaging enemies.
   size: 1
   health: 280
-  research: "copper-wall-large"
-type:Wall
+  research:{
+parent:copper-wall-large
 requirements:[
 lead/150
 ]
+}
+category: defense
