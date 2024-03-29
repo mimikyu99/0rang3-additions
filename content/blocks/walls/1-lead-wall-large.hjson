@@ -1,0 +1,15 @@
+name: "Large Lead Wall"
+description: "A bigger version of the lead wall. Releases electric arcs damaging enemies."
+size: 1
+health: 640
+requirements: [
+  lead/100
+  ]
+  research:{
+parent:copper-wall-large
+requirements:[
+  lead/1000
+  ]
+  }
+category: defense 
+  type: Walls
