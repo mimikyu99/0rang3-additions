@@ -2,7 +2,7 @@ name:"leadWall"
   description:"A lead wall. Releases electric arcs"
   size: 1
   health: 280
-  research: "copperWallLarge"
+  research: "copper-wall-large"
 type:Wall
 requirements:[
 lead/150
