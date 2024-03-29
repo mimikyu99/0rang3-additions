@@ -1,0 +1,14 @@
+name: "Silicon Wall"
+description: "A silicon wall."
+  health:390
+  requirements:[
+  silicon/30
+  ]
+  research:{
+parent:"1-lead-wall-large"
+  requirements:[
+  silicon/2000
+  ]
+  }
+category:"defense"
+  type:"Walls"
