@@ -1,0 +1,15 @@
+name: "Large Silicon Wall"
+  description: "Bigger version of the silicon wall."
+  health:1560
+  size:2
+  requirements:[
+  silicon/125
+  ]
+  research:{
+parent:"1-silicon-wall"
+  requirements:[
+  silicon/1500
+  ]
+  }
+category: defense
+  type: Walls
