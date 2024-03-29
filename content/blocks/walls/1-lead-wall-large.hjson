@@ -1,6 +1,6 @@
 name: "Large Lead Wall"
 description: "A bigger version of the lead wall. Releases electric arcs damaging enemies."
-size: 1
+size: 2
 health: 640
 requirements: [
   lead/100
