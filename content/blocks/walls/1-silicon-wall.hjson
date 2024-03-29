@@ -1,6 +1,7 @@
 name: "Silicon Wall"
 description: "A silicon wall."
   health:390
+size:1
   requirements:[
   silicon/30
   ]
