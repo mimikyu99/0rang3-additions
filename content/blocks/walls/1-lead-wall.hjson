@@ -2,6 +2,9 @@ name:Lead Wall
   description:A lead wall. Releases electric arcs damaging enemies.
   size: 1
   health: 280
+requirements:[
+lead/25
+]
   research:{
 parent:copper-wall-large
 requirements:[
