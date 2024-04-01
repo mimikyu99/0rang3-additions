@@ -1,0 +1,52 @@
+type: "ItemTurret"
+  name: "Break"
+  description: "Shoots fiery shells at enemies"
+ size:2
+  reload:15
+  requirements:[
+  lead/150
+  titanium/50
+  silicon/70
+  ]
+  shoot:{
+shots:10
+  shotDelay:0.5
+  }
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:0.1
+  }
+inaccuracy:30
+  range:150
+  category:"turret"
+  shootSound:"shoot-dull"
+  outlineColor:"42413e"
+  research:{
+parent:"salvo"
+  requirements:[
+lead/1500
+  titanium/500
+  silicon/750
+  ]
+  }
+targetGround:true
+  targetAir:true
+  ammoTypes:{
+titanium:{
+bulletType:"FlakBulletType"
+  width:8
+  height:9
+  speed:6
+  lifeTime:90
+  collidesGround:true
+  collidesAir:true
+  ammoMultiplier:4
+  damage:12
+  splashDamage:20
+  splashDamageRadius:10
+}
+}
+
+  
