@@ -1,6 +1,6 @@
 type: "ItemTurret"
   name: "Break"
-  description: "Shoots fiery shells at enemies"
+  description: "RIP everything"
  size:2
   reload:0.05
   requirements:[
@@ -37,15 +37,15 @@ targetGround:true
 titanium:{
 bulletType:"FlakBulletType"
   width:45
-  height:45
-  speed:50
-  lifeTime:550
+  height:120
+  speed:160
+  lifeTime:1000
   collidesGround:true
   collidesAir:true
-  ammoMultiplier:6
-  damage:60
-  splashDamage:120
-  splashDamageRadius:50
+  ammoMultiplier:20
+  damage:69420
+  splashDamage:8888
+  splashDamageRadius:100
 }
 }
 
