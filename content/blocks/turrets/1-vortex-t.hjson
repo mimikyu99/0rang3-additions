@@ -26,8 +26,8 @@ outlineColor:"42413e"
   range:200
   inaccuracy:20
   shoot:{
-shots:3
-  shotDelay:3
+shots:6
+  shotDelay:2
   }
 ammoTypes:{
 sand:{
@@ -35,8 +35,8 @@ width:15
   height:20
   speed:9
   lifetime:160
-  damage:15
-  splashDamage:20
+  damage:25
+  splashDamage:60
   splashDamageRadius:80
   status: "burning"
   }
