@@ -9,7 +9,7 @@ type: "ItemTurret"
   silicon/70
   ]
   shoot:{
-shots:10
+shots:15
   shotDelay:0.5
   }
 coolant:{
@@ -18,7 +18,7 @@ type:"ConsumeCoolant"
 allowLiquid:true
   amount:0.1
   }
-inaccuracy:30
+inaccuracy:5
   range:150
   category:"turret"
   shootSound:"missileLaunch"
@@ -36,13 +36,13 @@ targetGround:true
   ammoTypes:{
 titanium:{
 bulletType:"FlakBulletType"
-  width:8
-  height:9
-  speed:6
-  lifeTime:90
+  width:20
+  height:15
+  speed:9
+  lifeTime:300
   collidesGround:true
   collidesAir:true
-  ammoMultiplier:4
+  ammoMultiplier:6
   damage:12
   splashDamage:20
   splashDamageRadius:10
