@@ -2,7 +2,7 @@ type: "ItemTurret"
   name: "Break"
   description: "Shoots fiery shells at enemies"
  size:2
-  reload:0.5
+  reload:0.05
   requirements:[
   lead/150
   titanium/50
@@ -10,7 +10,7 @@ type: "ItemTurret"
   ]
   shoot:{
 shots:15
-  shotDelay:0.05
+  shotDelay:0.005
   }
 coolant:{
 type:"ConsumeCoolant"
@@ -18,7 +18,7 @@ type:"ConsumeCoolant"
 allowLiquid:true
   amount:0.1
   }
-inaccuracy:5
+inaccuracy:0
   range:150
   category:"turret"
   shootSound:"railgun"
@@ -36,9 +36,9 @@ targetGround:true
   ammoTypes:{
 titanium:{
 bulletType:"FlakBulletType"
-  width:10
+  width:45
   height:45
-  speed:25
+  speed:50
   lifeTime:550
   collidesGround:true
   collidesAir:true
