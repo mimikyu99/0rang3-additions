@@ -37,15 +37,15 @@ targetGround:true
 titanium:{
 bulletType:"FlakBulletType"
   width:20
-  height:15
-  speed:9
-  lifeTime:300
+  height:30
+  speed:20
+  lifeTime:500
   collidesGround:true
   collidesAir:true
   ammoMultiplier:6
-  damage:12
-  splashDamage:20
-  splashDamageRadius:10
+  damage:30
+  splashDamage:60
+  splashDamageRadius:30
 }
 }
 
