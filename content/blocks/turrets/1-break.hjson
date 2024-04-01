@@ -21,7 +21,7 @@ allowLiquid:true
 inaccuracy:30
   range:150
   category:"turret"
-  shootSound:"shoot-dull"
+  shootSound:"missileLaunch"
   outlineColor:"42413e"
   research:{
 parent:"salvo"
