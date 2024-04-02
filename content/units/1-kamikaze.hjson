@@ -1,1 +1,9 @@
-
+name: Kamikaze
+description: Self destructs upon contact with enemy 
+template: SerpuloUnitType
+flying: true
+speed: 5
+drag:1.2
+hitSize:8
+health:50
+research:
