@@ -1,0 +1,5 @@
+localizedName: Opal
+  description: A beautiful rare green gem.Can be used as ammo.
+  hardness:1.5
+  cost:0.8 
+  alwaysUnlocked:true
