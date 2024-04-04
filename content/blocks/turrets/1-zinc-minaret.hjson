@@ -1,5 +1,5 @@
 type: "ItemTurret"
-  name: "Zinc Minaret"
+  name: "Minaret"
   description: "Simple engineered turret, not very strong"
  size:1
   reload:10
