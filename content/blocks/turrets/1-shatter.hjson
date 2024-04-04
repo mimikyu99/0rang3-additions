@@ -1,1 +1,48 @@
+type: "ItemTurret"
+  name: "Shatter"
+  description:"Powerful sniper turret designed by masters."
+ size:3
+  reload:60
+  requirements:[
+  1-zinc/35
+1-cadmium/40
+  ]
+  shoot:{
+shots:1
+  shotDelay:3
+  }
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:0.5
+  }
+inaccuracy:0.3
+  range:300
+  category:"turret"
+  shootSound:"missileLaunch"
+  research:{
+parent:"1-zinc-marinet"
+  requirements:[
+1-zinc/250
+1-cadmium/300
+  ]
+  }
+targetGround:true
+  targetAir:true
+  ammoTypes:{
+1-cadmium:{
+bulletType:"BasicBulletType"
+  width:15
+  height:25
+  speed:12
+  lifeTime:300
+  collidesGround:true
+  collidesAir:true
+  ammoMultiplier:1
+  damage:200
+}
+}
+
+  
 
