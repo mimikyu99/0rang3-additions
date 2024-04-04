@@ -1,1 +1,46 @@
+type: "ItemTurret"
+  name: "Zinc Minaret"
+  description: "Simple engineered turret, not very strong"
+ size:1
+  reload:1
+  requirements:[
+  zinc/70
+  ]
+  shoot:{
+shots:2
+  shotDelay:0.5
+  }
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:0.1
+  }
+inaccuracy:0.3
+  range:90
+  category:"turret"
+  shootSound:"sparkShoot"
+  outlineColor:"42413e"
+  research:{
+parent:"duo"
+  requirements:[
+1-zinc/150
+  ]
+  }
+targetGround:true
+  targetAir:false
+  ammoTypes:{
+1-zinc:{
+bulletType:"BasicBulletType"
+  width:15
+  height:25
+  speed:2
+  lifeTime:60
+  collidesGround:true
+  collidesAir:true
+  ammoMultiplier:2
+  damage:12
+}
+}
 
+  
