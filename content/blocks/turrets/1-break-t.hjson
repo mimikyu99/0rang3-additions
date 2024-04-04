@@ -1,5 +1,5 @@
 type: "ItemTurret"
-  name: "Break"
+  name: "Fracture"
   description: "RIP everything"
  size:2
   reload:0.05
