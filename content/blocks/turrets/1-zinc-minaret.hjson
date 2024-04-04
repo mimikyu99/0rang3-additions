@@ -19,7 +19,7 @@ allowLiquid:true
 inaccuracy:0.3
   range:90
   category:"turret"
-  shootSound:"sparkShoot"
+  shootSound:"shoot"
   research:{
 parent:"duo"
   requirements:[
