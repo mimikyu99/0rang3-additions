@@ -1,0 +1,6 @@
+name:"Zinc"
+  description: "It's kind of soft. Used in basic building"
+hardness: 1
+  cost:0.8
+  alwaysUnlocked:true
+  
