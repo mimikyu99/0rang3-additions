@@ -1,0 +1,4 @@
+type: OreBlock
+  name: Cadmium Ore
+itemDrop: 1-cadmium
+  variants: 2 
