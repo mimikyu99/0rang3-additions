@@ -40,4 +40,14 @@ width:15
   splashDamageRadius:80
   status: "burning"
   }
+silicon:{
+width:30
+  height:25
+  speed:5
+  lifetime:200
+  damage:44
+  splashDamage:65
+  splashDamageRadius:60
+  status: "burning"
+  }
 }
