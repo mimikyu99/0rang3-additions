@@ -20,7 +20,7 @@ allowLiquid:true
 inaccuracy:0.3
   range:300
   category:"turret"
-  shootSound:"missileLaunch"
+  shootSound:"shootAlt"
 outlineColor:"42413e"
   research:{
 parent:"1-zinc-minaret"
