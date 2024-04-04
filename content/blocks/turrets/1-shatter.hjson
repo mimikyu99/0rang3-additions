@@ -21,8 +21,9 @@ inaccuracy:0.3
   range:300
   category:"turret"
   shootSound:"missileLaunch"
+outlineColor:"42413e"
   research:{
-parent:"1-zinc-marinet"
+parent:"1-zinc-minaret"
   requirements:[
 1-zinc/250
 1-cadmium/300
