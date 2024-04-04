@@ -4,7 +4,7 @@ type: "ItemTurret"
  size:1
   reload:1
   requirements:[
-  zinc/70
+  1-zinc/70
   ]
   shoot:{
 shots:2
