@@ -1,0 +1,22 @@
+type: CoreBlock
+name: Core: Abak
+description: Core of the base. Armored and stores a medium amount of items.
+requirements: [
+  1-zinc/1600
+  1-cadmium/1200
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: 1-cadi-defender
+health: 1450
+itemCapacity: 4500
+unitCapModifier: 8
+category: effect
+research: {
+  planet: 1-abak
+  root: true
+  name: Abak
+  requiresUnlock: false
+}
