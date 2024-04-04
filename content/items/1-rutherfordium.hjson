@@ -1,0 +1,5 @@
+localizedName: Rutherfordium
+  description: "A rare radioactive gem. Used as ammo and fuel for Rutherfordium Fusion Reactors."
+  hardness:2
+  cost:1
+  alwaysUnlocked:true
