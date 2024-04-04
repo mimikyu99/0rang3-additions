@@ -1,0 +1,5 @@
+name:"Cadmium"
+  description: "It's kind of soft. Used as ammo and advanced building."
+hardness: 1.5
+  cost:1
+  alwaysUnlocked:true
