@@ -6,7 +6,10 @@ category: production
 hasLiquids: false
 research: {
   parent: 1-core-abak
-    
+requirements:[
+1-zinc/5
+]
+    }
 hardnessDrillMultiplier: 50
 drillTime: 300
 hasPower: false
