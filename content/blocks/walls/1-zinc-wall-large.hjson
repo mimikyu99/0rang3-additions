@@ -1,0 +1,15 @@
+name:Large Zinc Wall
+  description:Defends structures. Made of tightly packed zinc.
+  size: 2
+  health: 1440
+requirements:[
+1-zinc/100
+]
+  research:{
+parent:1-zinc-wall
+requirements:[
+1-zinc/300
+]
+}
+category: defense
+type: Walls
