@@ -1,4 +1,4 @@
-type: Duct
+type: Conveyor
 name: Zinc Duct
 description: Transports items.
 category: distribution
