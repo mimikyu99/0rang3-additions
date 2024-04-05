@@ -12,3 +12,4 @@ health: 45
 requirements: [
   1-zinc/1
 ]
+size:1
