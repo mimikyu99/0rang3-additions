@@ -2,3 +2,4 @@ type: OreBlock
 name: Opal Ore
 itemDrop: 1-opal
 alwaysUnlocked: true
+variants:2
