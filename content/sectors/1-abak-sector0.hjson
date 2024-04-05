@@ -1,0 +1,9 @@
+localizedName: Passageway
+  description: "You wake up in a strange planet covered in gray matter, it could be sand or anything else."
+  captureWave: 5
+  planet: 1-abak
+  sector:0
+  research: 1-core-abak
+  difficulty: 0.5
+  alwaysUnlocked:true
+  
