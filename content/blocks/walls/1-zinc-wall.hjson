@@ -1,0 +1,15 @@
+name:Zinc Wall
+  description:Defends structures. Made of tightly packed zinc.
+  size: 1
+  health: 380
+requirements:[
+1-zinc/25
+]
+  research:{
+parent:1-core-abak
+requirements:[
+1-zinc/150
+]
+}
+category: defense
+type: Walls
