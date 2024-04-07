@@ -3,6 +3,6 @@ localizedName: Uncharted
   captureWave: 7
   planet: 1-abak
   sector:1
-  research: 1-core-abak
+  research: 1-abak-sector0
   difficulty: 1
   alwaysUnlocked:true
