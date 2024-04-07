@@ -21,8 +21,8 @@ outlineColor: 42413e
       trailChance: -1
       trailEffect: dynamicSpikes
       buildingDamageMultiplier: 0.01
-weapons: {
-  [
+weapons: [
+  {
     x: 0
     y: 0
     mirror: false
@@ -49,5 +49,6 @@ weapons: {
       pierceCap: 1
       hitEffect: none
       despawnEffect: none
-    ]
+    }
 }
+]
