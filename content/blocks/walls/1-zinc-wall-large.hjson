@@ -1,9 +1,9 @@
 name:Large Zinc Wall
   description:Defends structures. Made of tightly packed zinc.
   size: 2
-  health: 1440
+  health: 1360
 requirements:[
-1-zinc/100
+1-zinc/24
 ]
   research:{
 parent:1-zinc-wall
