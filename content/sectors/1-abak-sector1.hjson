@@ -1,0 +1,8 @@
+localizedName: Uncharted
+  description: "It seems there is more."
+  captureWave: 7
+  planet: 1-abak
+  sector:1
+  research: 1-core-abak
+  difficulty: 1
+  alwaysUnlocked:true
