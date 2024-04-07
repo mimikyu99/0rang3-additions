@@ -23,32 +23,30 @@ outlineColor: 42413e
       buildingDamageMultiplier: 0.01
 weapons: [
   {
+        name: 1-cadi-gun
     x: 0
     y: 0
+    reload: 2
     mirror: false
-    name: 1-cadi-gun
-    continuous: true
-    alwaysContinuous: true
+    rotate: true
     ejectEffect: none
-    shootSound: fire
-    shootY: 1
+    shootSound: shoot
     bullet: {
-      collides: true
-      collidesTiles: true
-      collidesAir: true
-      collidesGround: true
-      type: ContinuousFlameBulletType
-      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
-      length: 80
-      width: 12
-      drawFlare: false
-      damageInterval: 5
-      damage: 7
+      type: BasicBulletType
       buildingDamageMultiplier: 0.01
-      pierceArmor: false
-      pierceCap: 1
-      hitEffect: none
-      despawnEffect: none
-    }
-}
-]
+      speed: 1.65
+      lifetime: 90
+      damage: 10
+      splashDamage: 8
+      splashDamageRadius: 12
+      width: 9
+      height: 12
+      pierceBuilding: false
+      pierce: false
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      
+      homingPower: 0.2
