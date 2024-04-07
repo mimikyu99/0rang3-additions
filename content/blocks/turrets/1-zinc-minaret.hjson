@@ -8,7 +8,7 @@ type: "ItemTurret"
   ]
   shoot:{
 shots:2
-  shotDelay:3
+  shotDelay:4
   }
 coolant:{
 type:"ConsumeCoolant"
@@ -16,12 +16,12 @@ type:"ConsumeCoolant"
 allowLiquid:true
   amount:0.1
   }
-inaccuracy:0.3
-  range:90
+inaccuracy:1
+  range:100
   category:"turret"
   shootSound:"shoot"
   research:{
-parent:"duo"
+parent:"1-core-abak"
   requirements:[
 1-zinc/150
   ]
