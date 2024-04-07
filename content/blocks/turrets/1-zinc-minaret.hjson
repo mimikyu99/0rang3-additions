@@ -7,7 +7,7 @@ type: "ItemTurret"
   1-zinc/70
   ]
   shoot:{
-shots:2
+shots:1
   shotDelay:4
   }
 coolant:{
@@ -38,7 +38,7 @@ bulletType:"BasicBulletType"
   collidesGround:true
   collidesAir:false
   ammoMultiplier:2
-  damage:12
+  damage:4
 }
 }
 
