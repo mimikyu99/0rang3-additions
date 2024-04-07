@@ -1,18 +1,18 @@
 type: flying
 hovering: true
-groundLayer: 60
+groundLayer: 90
 name: Cadi Defender
 description: Defends the Abak core. Builds structures and mines ores.
 health: 135
 armor: 1
 mineFloor: true
 mineWalls: true
-speed: 2
+speed: 3.5
 hitSize: 6
 isEnemy: false
-mineSpeed: 3
+mineSpeed: 6
 mineTier: 1
-buildSpeed: 0.4
+buildSpeed: 1
 drag: 0.6
 itemCapacity: 25
 alwaysUnlocked: true
@@ -21,3 +21,33 @@ outlineColor: 42413e
       trailChance: -1
       trailEffect: dynamicSpikes
       buildingDamageMultiplier: 0.01
+weapons: {
+  [
+    x: 0
+    y: 0
+    mirror: false
+    name: 1-cadi-gun
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: shoot
+    shootY: 1
+    bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
+      length: 80
+      width: 1
+      drawFlare: false
+      damageInterval: 15
+      damage: 11
+      buildingDamageMultiplier: 0.01
+      pierceArmor: false
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    ]
+}
