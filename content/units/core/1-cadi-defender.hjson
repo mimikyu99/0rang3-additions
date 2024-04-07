@@ -50,3 +50,6 @@ weapons: [
       buildingDamageMultiplier: 0.01
       
       homingPower: 0.2
+}
+}
+]
