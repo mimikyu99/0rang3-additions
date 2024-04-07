@@ -1,0 +1,24 @@
+type: Drill
+name: Cadmium Miner
+description: Uses strong drills to mine materials from the ground.
+size: 2
+category: production
+hasLiquids: false
+research: {
+  parent: 1-zinc-excavator
+requirements:[
+1-zinc/200
+1-cadmium/500
+]
+    }
+hardnessDrillMultiplier: 55
+hasPower: false
+tier: 2
+shake: 0.5
+itemCapacity: 25
+researchCostMultiplier: 0.5
+requirements: [
+  1-cadmium/60
+  1-zinc/30
+]
+squareSprite: false
