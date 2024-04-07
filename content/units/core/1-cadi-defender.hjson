@@ -13,7 +13,7 @@ isEnemy: false
 mineSpeed: 6
 mineTier: 1
 buildSpeed: 1
-drag: 2
+drag: 0.5
 itemCapacity: 25
 alwaysUnlocked: true
 outlineColor: 42413e
