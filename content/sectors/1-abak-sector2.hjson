@@ -1,0 +1,8 @@
+localizedName: Cavery
+  description: "The Crux want to conquest this tight cave system for its rare ores and gems."
+  captureWave: 16
+  planet: 1-abak
+  sector:2
+  research: 1-abak-sector1
+  difficulty: 1.3
+  alwaysUnlocked:true
