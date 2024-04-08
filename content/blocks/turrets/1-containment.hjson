@@ -1,0 +1,52 @@
+type: "ItemTurret"
+  name: "Containment"
+  description:"Fast and inaccurate."
+ size:2
+  reload:10
+  requirements:[
+  1-zinc/60
+1-cadmium/30
+  1-rutherfordium/60
+  ]
+  shoot:{
+shots:2
+  shotDelay:6
+  }
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:0.5
+  }
+inaccuracy:2
+  range:140
+  category:"turret"
+  shootSound:"shoot"
+outlineColor:"42413e"
+  research:{
+parent:"1-shatter"
+  requirements:[
+1-zinc/700
+1-cadmium/360
+  1-opal/100
+  1-rutherfordium/200
+  ]
+  }
+targetGround:true
+  targetAir:false
+  ammoTypes:{
+1-rutherfordium:{
+bulletType:"BasicBulletType"
+  width:15
+  height:25
+  speed:3
+  lifeTime:300
+  collidesGround:true
+  collidesAir:false
+  ammoMultiplier:3
+  damage:15
+}
+}
+
+  
+
