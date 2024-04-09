@@ -4,7 +4,7 @@ description: Core of the base. Armored and stores a large amount of items.
 requirements: [
   1-zinc/5000
   1-cadmium/3700
-  1-opal-1800
+  1-opal/1800
   1-rutherfordium/200
 ]
 size: 4
