@@ -1,0 +1,54 @@
+type: flying
+hovering: true
+groundLayer: 90
+name: Trooper
+description: Defends the Decompose core. Builds structures and mines ores.
+health: 250
+armor: 2
+mineFloor: true
+mineWalls: true
+speed: 4
+hitSize: 6
+isEnemy: false
+mineSpeed: 8
+mineTier: 1
+buildSpeed: 1
+drag: 0.04
+itemCapacity: 50
+alwaysUnlocked: true
+outlineColor: 42413e
+
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: 1-troop-gun
+    x: -4
+    y: 0
+    reload: 15
+    mirror: true
+    rotate: true
+    ejectEffect: none
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 5
+      lifetime: 80
+      damage: 12
+      splashDamage: 5
+      splashDamageRadius: 18
+      width: 10
+      height: 15
+      pierceBuilding: false
+      pierce: false
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      
+}
+}
+]
