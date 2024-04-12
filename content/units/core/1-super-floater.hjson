@@ -42,7 +42,8 @@ weapons: [
       width: 9
       height: 10
       pierceBuilding: false
-      pierce: false
+      pierce: true
+pierceCap: 3
       trailChance: -1
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
