@@ -1,0 +1,54 @@
+type: flying
+hovering: true
+groundLayer: 90
+name: Super Floater
+description: Defends the Rotten core. Builds structures and mines ores.
+health: 450
+armor: 3
+mineFloor: true
+mineWalls: true
+speed: 3
+hitSize: 6
+isEnemy: false
+mineSpeed: 8
+mineTier: 1
+buildSpeed: 2
+drag: 0.04
+itemCapacity: 70
+alwaysUnlocked: true
+outlineColor: 42413e
+
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: 1-floater-blaster
+    x: 0
+    y: 3
+    reload: 10
+    mirror: false
+    rotate: false
+    ejectEffect: none
+    shootSound: shootAlt
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 7
+      lifetime: 120
+      damage: 17
+      splashDamage: 8
+      splashDamageRadius: 22
+      width: 9
+      height: 10
+      pierceBuilding: false
+      pierce: false
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      
+}
+}
+]
