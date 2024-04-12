@@ -1,0 +1,18 @@
+type: CoreBlock
+name: Core: Rotten
+description: Core of the base. Very well armored and stores a huge amount of items.
+requirements: [
+  1-zinc/8000
+  1-cadmium/7000
+  1-opal/5600
+  1-rutherfordium/6000
+]
+size: 5
+squareSprite: false
+alwaysUnlocked: true
+unitType: 1-super-floater
+health: 7500
+itemCapacity: 12500
+unitCapModifier: 15
+category: effect
+research: 1-core-decompose
