@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Decomposer
+description: Decomposes Spore Pods into Nitrogen and Hydrogen.
+size: 2
+squareSprite: false
+craftTime: 130
+consumes: {
+  items: [
+    spore-pod/3
+  ]
+}
+outputItem:[
+ 1-hydrogen/2
+1-nitrogen/1
+  ]
+category: crafting
+researchCostMultiplier: 0.5
+research: core-shard
+requirements: [
+  copper/1
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawParticles
+      color: d3ae8d
+      alpha: 0.85
+      particleSize: 1.6
+      particles: 30
+      particleRad: 12
+      particleLife: 60
+   }
+   ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.05
+itemCapacity: 20 
