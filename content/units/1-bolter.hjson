@@ -37,7 +37,8 @@ recoil:2
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       buildingDamageMultiplier: 0.01    
-},
+}
+}
     {
 name: 1-bolter-blast
     x: -4
@@ -65,5 +66,6 @@ splashDamage:12
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       buildingDamageMultiplier: 0.01
+}
 }
 ] 
