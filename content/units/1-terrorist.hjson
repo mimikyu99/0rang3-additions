@@ -16,7 +16,8 @@ weapons: [
         name: 1-terrorist-gun
     x: -2
     y: 3
-    reload: 35
+recoil:1
+    reload: 15
     mirror: true
     rotate: false
     ejectEffect: none
