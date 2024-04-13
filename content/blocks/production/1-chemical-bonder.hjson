@@ -5,11 +5,11 @@ size: 3
 squareSprite: false
 craftTime: 15
 consumes: {
+power:3
   items: [
     1-nitrogen-item/3
 1-hydrogen-item/3
     1-carbon-item/3
-    power/60
     ]
   liquid: water/1.2
 }
