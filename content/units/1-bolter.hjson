@@ -1,0 +1,70 @@
+type: mech
+name: Bolter
+description: Attacks using multiple bullets.
+health: 450
+armor: 2
+speed: 1.5
+hitSize: 6
+drag: 0.04
+outlineColor: 42413e
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: 1-terrorist-gun
+    x: -2
+    y: 3
+recoil:2
+    reload: 10
+    mirror: true
+    rotate: false
+    ejectEffect: none
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 4
+      lifetime: 80
+      damage: 12
+      width: 12
+      height: 13
+      pierceBuilding: false
+      pierce: true
+        pierceCap: 2
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01    
+}
+    {
+        name: 1-bolter-blast
+    x: -4
+    y: 0
+recoil:2
+    reload: 20
+    mirror: true
+    rotate: false
+    ejectEffect: none
+    shootSound: shootAlt
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 2
+      lifetime: 160
+      damage: 50
+splashDamage:12
+  splashDamageRadius:7
+      width: 25
+      height: 29
+      pierceBuilding: false
+      pierce: false
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+}
+}
+] 
