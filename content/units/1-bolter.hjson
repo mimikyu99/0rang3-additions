@@ -16,7 +16,7 @@ weapons: [
     x: -2
     y: 3
 recoil:2
-    reload: 10
+    reload: 15
     mirror: true
     rotate: false
     ejectEffect: none
@@ -44,7 +44,7 @@ name: 1-bolter-blast
     x: -4
     y: 0
 recoil:2
-    reload: 20
+    reload: 35
     mirror: true
     rotate: false
     ejectEffect: none
@@ -54,11 +54,11 @@ recoil:2
       buildingDamageMultiplier: 0.01
       speed: 2
       lifetime: 160
-      damage: 50
+      damage: 45
 splashDamage:12
   splashDamageRadius:7
-      width: 25
-      height: 29
+      width: 15
+      height: 19
       pierceBuilding: false
       pierce: false
       trailChance: -1
