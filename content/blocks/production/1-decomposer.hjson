@@ -3,15 +3,17 @@ name: Decomposer
 description: Decomposes Spore Pods into Nitrogen and Hydrogen.
 size: 2
 squareSprite: false
-craftTime: 130
+craftTime: 30
 consumes: {
   items: [
     spore-pod/3
+coal/2
   ]
 }
 outputItems:[
- 1-hydrogen-item/2
+ 1-hydrogen-item/1
 1-nitrogen-item/1
+1-carbon-item/1
   ]
 category: crafting
 researchCostMultiplier: 0.5
