@@ -1,6 +1,6 @@
 type: mech
 name: Terrorist
-description: Attacks using basic bullets and explodes upon death.
+description: Attacks using basic bullets.
 health: 130
 armor: 1
 speed: 1.1
@@ -16,7 +16,7 @@ weapons: [
         name: 1-terrorist-gun
     x: -2
     y: 3
-    reload: 25
+    reload: 35
     mirror: true
     rotate: false
     ejectEffect: none
@@ -26,41 +26,11 @@ weapons: [
       buildingDamageMultiplier: 0.01
       speed: 4
       lifetime: 80
-      damage: 4
+      damage: 8
       width: 9
       height: 10
       pierceBuilding: false
       pierce: false
-      trailChance: -1
-      trailEffect: dynamicSpikes
-      shootEffect: shootSmall
-      smokeEffect: shootSmallSmoke
-      buildingDamageMultiplier: 0.01
-      
-}
-}
-{
-        name: 1-bombard
-    x: -2
-    y: 3
-    reload: 25
-    mirror: false
-    rotate: false
-    ejectEffect: none
-    shootSound: shoot
-    bullet: {
-      type: BasicBulletType
-      buildingDamageMultiplier: 0.01
-      speed: 4
-      lifetime: 1
-      damage: 25
-      width: 9
-      height: 10
-killShooter: true
-      pierceBuilding: false
-      pierce: false
-splashDamage: 60
-splashDamageRadius:30
       trailChance: -1
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
