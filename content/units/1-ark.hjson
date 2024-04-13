@@ -1,0 +1,73 @@
+type: mech
+name: Ark
+description: Attacks using multiple bullets.
+health: 1550
+armor: 3
+speed: 0.8
+hitSize: 6
+drag: 0.04
+outlineColor: 42413e
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: 1-minigun
+    x: 0
+    y: 3
+recoil:2
+    reload: 1
+    mirror: false
+    rotate: false
+    ejectEffect: none
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 5
+      lifetime: 80
+      damage: 4
+      width: 8
+      height: 9
+      pierceBuilding: false
+      pierce: true
+        pierceCap: 2
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+        inaccuracy:2
+}
+}
+    {
+name: 1-bolter-blast
+    x: -4
+    y: 0
+recoil:2
+    reload: 20
+    mirror: true
+    rotate: false
+    ejectEffect: none
+    shootSound: shootAlt
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 2
+      lifetime: 160
+      damage: 80
+splashDamage:18
+  splashDamageRadius:25
+      width: 18
+      height: 19
+      pierceBuilding: false
+      pierce: true
+  pierceCap:5
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+}
+}
+]  
