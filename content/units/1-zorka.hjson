@@ -16,14 +16,14 @@ weapons: [
     x: 0
     y: 3
 recoil:2
-    reload: 25
+    reload: 60
     mirror: false
     rotate: false
     ejectEffect: none
     shootSound: shoot
   shoot:{
-  shots:12
-    shotDelay:4
+  shots:18
+    shotDelay:1
 }
     bullet: {
       type: BasicBulletType
@@ -41,12 +41,12 @@ recoil:2
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       buildingDamageMultiplier: 0.01
-        inaccuracy:3
+        inaccuracy:1.5
 }
 }
     {
 name: 1-bolter-blast
-    x: -6
+    x: -7
     y: -1
 recoil:2
     reload: 20
