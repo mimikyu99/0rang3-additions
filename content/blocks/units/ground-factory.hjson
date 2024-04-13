@@ -1,0 +1,10 @@
+plans: [
+    {
+    unit: 1-terrorist
+    requirements: [
+        silicon/15
+      copper/25
+    ]
+    time: 700
+    }
+]
