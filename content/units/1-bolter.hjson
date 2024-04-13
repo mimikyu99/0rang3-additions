@@ -66,5 +66,4 @@ splashDamage:12
       smokeEffect: shootSmallSmoke
       buildingDamageMultiplier: 0.01
 }
-}
 ] 
