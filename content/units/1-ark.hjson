@@ -16,7 +16,7 @@ weapons: [
     x: 0
     y: 3
 recoil:2
-    reload: 1
+    reload: 6
     mirror: false
     rotate: false
     ejectEffect: none
@@ -25,19 +25,19 @@ recoil:2
       type: BasicBulletType
       buildingDamageMultiplier: 0.01
       speed: 5
-      lifetime: 80
-      damage: 4
-      width: 8
-      height: 9
+      lifetime: 60
+      damage: 6
+      width: 12
+      height: 16
       pierceBuilding: false
       pierce: true
-        pierceCap: 2
+        pierceCap: 5
       trailChance: -1
       trailEffect: dynamicSpikes
       shootEffect: shootSmall
       smokeEffect: shootSmallSmoke
       buildingDamageMultiplier: 0.01
-        inaccuracy:2
+        inaccuracy:3
 }
 }
     {
