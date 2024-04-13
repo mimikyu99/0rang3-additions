@@ -1,0 +1,25 @@
+type: GenericCrafter
+name: Chemical Bonder
+description: Condenses Carbon, Hydrogen and Nitrogen into Meth. Requires power and water.
+size: 3
+squareSprite: false
+craftTime: 15
+consumes: {
+  items: [
+    1-nitrogen-item/3
+1-hydrogen-item/3
+    1-carbon-item/3
+    power/60
+    ]
+  liquid: water/1.2
+}
+outputItem: 1-meth-item/1
+category: crafting
+researchCostMultiplier: 0.5
+research: 1-decomposer
+requirements: [
+  copper/1
+]
+ambientSound: hum
+ambientSoundVolume: 0.05
+itemCapacity: 20
