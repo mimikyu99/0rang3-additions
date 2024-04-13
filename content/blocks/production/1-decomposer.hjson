@@ -9,9 +9,9 @@ consumes: {
     spore-pod/3
   ]
 }
-outputItem:[
- 1-hydrogen/2
-1-nitrogen/1
+outputItems:[
+ 1-hydrogen-item/2
+1-nitrogen-item/1
   ]
 category: crafting
 researchCostMultiplier: 0.5
