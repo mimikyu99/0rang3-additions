@@ -1,5 +1,5 @@
 type: mech
-name: Terrorist
+name: Treeorist
 description: Attacks using basic bullets.
 health: 130
 armor: 1
