@@ -1,5 +1,5 @@
 type: mech
-name: Bolter
+name: Boltreer
 description: Attacks using multiple bullets.
 health: 450
 armor: 2
