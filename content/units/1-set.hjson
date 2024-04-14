@@ -1,0 +1,50 @@
+type: flying
+hovering: true
+groundLayer: 90
+name: Set
+description: flying crawler :o
+health: 85
+armor: 1
+speed: 1.2
+hitSize: 6
+isEnemy: false
+drag: 0.04
+alwaysUnlocked: true
+outlineColor: 42413e
+
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: kaboom
+    x: 0
+    y: 3
+    reload: 10
+    mirror: false
+    rotate: false
+          shootOnDeath: true
+    ejectEffect: none
+    shootSound: shootAlt
+    bullet: {
+      type: ExplosionBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 1
+        killShooter:true
+      lifetime: 120
+      damage: 0
+      splashDamage: 55
+      splashDamageRadius: 25
+      width: 9
+      height: 10
+      pierceBuilding: false
+      pierce: false
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      
+}
+}
+]
