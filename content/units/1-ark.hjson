@@ -1,5 +1,5 @@
 type: mech
-name: Ark
+name: Treark
 description: Attacks using multiple bullets.
 health: 1550
 armor: 3
