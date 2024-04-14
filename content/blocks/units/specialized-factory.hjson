@@ -15,8 +15,7 @@ plans: [
     type: AssemblerUnitPlan
     unit: 1-set
     requirements: [
-      silicon/15
-      coal/30
+      crawler/1
     ]
     time: 720
   }  
