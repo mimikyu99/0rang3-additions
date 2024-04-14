@@ -1,0 +1,27 @@
+researchCostMultiplier: 0.5
+type: UnitAssembler
+name: Specialized Factory
+description: Creates units using gamma rays. Requires power.
+size: 3
+category: units
+research: {
+  parent: ground-factory
+}
+requirements: [
+  copper/1
+]
+plans: [
+  {
+    type: AssemblerUnitPlan
+    unit: 1-set
+    requirements: [
+      silicon/15
+      coal/30
+    ]
+    time: 720
+  }  
+]
+squareSprite: false
+consumes: {
+  power: 2
+}
