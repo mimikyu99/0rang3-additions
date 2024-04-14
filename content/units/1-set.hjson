@@ -33,7 +33,7 @@ weapons: [
         killShooter:true
       lifetime: 120
       damage: 0
-      splashDamage: 55
+      splashDamage: 250
       splashDamageRadius: 25
       width: 9
       height: 10
