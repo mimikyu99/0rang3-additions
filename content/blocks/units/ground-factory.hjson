@@ -30,5 +30,6 @@ plans: [
         silicon/20
         copper/25
     ]
-    }
+time: 1200 
+}
 ]
