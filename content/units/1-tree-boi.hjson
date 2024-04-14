@@ -1,0 +1,79 @@
+type: mech
+name: Tree Boi
+description: Attacks using multiple bullets.
+health: 19000
+armor: 5
+speed: 0.6
+hitSize: 12
+drag: 0.04
+outlineColor: 42413e
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: 1-minigun
+    x: 0
+    y: 3
+recoil:4
+    reload: 60
+    mirror: false
+    rotate: false
+    ejectEffect: none
+    shootSound: shoot
+  shoot:{
+  shots:18
+    shotDelay:1
+}
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 5
+      lifetime: 120
+      damage: 17
+        splashDamage: 25
+        splashDamageRadius: 60
+      width: 12
+      height: 16
+      pierceBuilding: false
+      pierce: true
+        pierceCap: 15
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+        inaccuracy:0.9
+}
+}
+    {
+name: 1-bolter-blast
+    x: -7
+    y: -1
+recoil:2
+    reload: 10
+    mirror: true
+    rotate: false
+    ejectEffect: none
+    shootSound: shootAlt
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 6
+      lifetime: 160
+      damage: 120
+splashDamage:77
+  splashDamageRadius:25
+      width: 10
+      height: 11
+      pierceBuilding: false
+      pierce: true
+  pierceCap:5
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+}
+}
+]    
