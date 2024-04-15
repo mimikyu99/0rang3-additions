@@ -1,5 +1,5 @@
-type: Duct
-name: Zinc Duct
+type: Conveyor
+name: Zinc Conveyor
 description: Transports items.
 category: distribution
 alwaysUnlocked: true
@@ -7,7 +7,7 @@ research: 1-core-abak
 researchCost: [
   1-zinc/10
 ]
-speed: 10
+speed: 6
 health: 45
 requirements: [
   1-zinc/1
