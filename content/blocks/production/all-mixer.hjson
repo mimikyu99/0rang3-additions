@@ -31,7 +31,7 @@ oil/15
   cryofluid/10
 ]
 }
-outputItem: neopluvium/2
+outputItem: 1-neopluvium/2
 category: crafting
 researchCostMultiplier: 0.5
 research: core-shard
