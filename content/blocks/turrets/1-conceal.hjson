@@ -1,0 +1,78 @@
+type: "ItemTurret"
+  name:"Conceal"
+  description: "stronk boi"
+ size:5
+  reload:15
+  requirements:[
+  thorium/200
+  copper/300
+  phase-fabric/50
+  silicon/200
+  surge-alloy/150
+  1-neopluvium/30
+  ]
+  shoot:{
+shots:3
+  shotDelay:4
+  }
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:0.5
+  }
+inaccuracy:1.3
+  range:150
+  category:"turret"
+  shootSound:"shoot"
+  research:{
+parent:"meltdown"
+  requirements:[
+1-neopluvium/1
+  ]
+  }
+targetGround:true
+  targetAir:true
+  ammoTypes:{
+phase-fabric:{
+bulletType:"ArtilleryBulletType"
+  width:25
+  height:30
+  speed:4
+  lifeTime:130
+  collidesGround:true
+  collidesAir:true
+  pierce: true
+  pierceCap: 12
+  ammoMultiplier:1.4
+  damage:23
+}
+  surge-alloy:{
+    bulletType:"BasicBulletType"
+  width:18
+  height:25
+  speed:6
+  lifeTime:90
+  collidesGround:true
+  collidesAir:true
+splashDamage:30
+  splashDamageRadius: 40
+  ammoMultiplier:2
+  damage:16
+  }
+  1-neopluvium:{
+    bulletType:"ArtilleryBulletType"
+  width:54
+  height:43
+  speed:8
+  lifeTime:130
+  collidesGround:true
+  collidesAir:true
+  pierce: true
+  pierceCap: 90
+  ammoMultiplier:3
+  damage:55
+}
+}
+
+  
