@@ -1,0 +1,5 @@
+name:"Neopluvium"
+  description: "Shard of space fabric. Used as ammo and advanced building."
+hardness: 5
+  cost:2
+  alwaysUnlocked:true
