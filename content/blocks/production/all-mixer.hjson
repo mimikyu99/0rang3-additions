@@ -1,0 +1,42 @@
+type: GenericCrafter
+name: Universal Mixer
+description: Mixes every single resource to make Neopluvium. Requires immense power and liquids.
+size: 5
+squareSprite: false
+craftTime: 35
+consumes: {
+power:600
+  items: [
+    copper/3
+  lead/3
+    coal/3
+  sand/3
+  scrap/3
+  titanium/3
+  thorium/3
+  graphite/3
+  silicon/3
+  metaglass/2
+  plastanium/2
+  surge-alloy/1
+  phase-fabric/1
+  pyratite/1
+  blast-compound/1
+  spore-pod/1
+    ]
+  liquids:[
+  water/15
+oil/15
+  slag/10
+  cryofluid/10
+}
+outputItem: neopluvium/2
+category: crafting
+researchCostMultiplier: 0.5
+research: core-shard
+requirements: [
+  copper/1
+]
+ambientSound: hum
+ambientSoundVolume: 0.1
+itemCapacity: 50
