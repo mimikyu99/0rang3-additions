@@ -29,6 +29,7 @@ power:600
 oil/15
   slag/10
   cryofluid/10
+]
 }
 outputItem: neopluvium/2
 category: crafting
