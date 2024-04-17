@@ -1,17 +1,14 @@
 type: GenericCrafter
 name: Universal Mixer
 description: Mixes every single resource to make Neopluvium. Requires immense power and liquids.
-size: 5
+size: 4
 squareSprite: false
-craftTime: 35
+craftTime: 45
 consumes: {
 power:600
   items: [
     copper/3
   lead/3
-    coal/3
-  sand/3
-  scrap/3
   titanium/3
   thorium/3
   graphite/3
@@ -19,10 +16,6 @@ power:600
   metaglass/2
   plastanium/2
   surge-alloy/1
-  phase-fabric/1
-  pyratite/1
-  blast-compound/1
-  spore-pod/1
     ]
   liquids:[
   water/15
