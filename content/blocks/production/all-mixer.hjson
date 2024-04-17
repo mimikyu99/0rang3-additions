@@ -5,7 +5,7 @@ size: 4
 squareSprite: false
 craftTime: 45
 consumes: {
-power:600
+power:60
   items: [
     copper/3
   lead/3
@@ -18,10 +18,10 @@ power:600
   surge-alloy/1
     ]
   liquids:[
-  water/15
-oil/15
-  slag/10
-  cryofluid/10
+  water/3
+oil/3
+  slag/2
+  cryofluid/2
 ]
 }
 outputItem: 1-neopluvium/2
