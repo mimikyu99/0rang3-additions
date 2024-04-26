@@ -4,8 +4,8 @@ description: car.
 health: 2148000000
 armor: 22
 speed: 3
-hitSize: 128
-drag: 1.4
+hitSize: 10
+drag: 1
 outlineColor: 42413e
 
       trailChance: -1
