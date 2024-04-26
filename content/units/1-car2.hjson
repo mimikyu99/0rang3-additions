@@ -1,0 +1,43 @@
+type: mech
+name: Car2
+description: car.
+health: 2148000000
+armor: 22
+speed: 3
+hitSize: 128
+drag: 1.4
+outlineColor: 42413e
+
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      buildingDamageMultiplier: 0.01
+weapons: [
+  {
+        name: 1-terrorist-gun
+    x: -2
+    y: -1
+recoil:1
+    reload: 1
+    mirror: true
+    rotate: false
+    ejectEffect: none
+    shootSound: shoot
+    bullet: {
+      type: BasicBulletType
+      buildingDamageMultiplier: 0.01
+      speed: 4
+      lifetime: 80
+      damage: 8
+      width: 9
+      height: 10
+      pierceBuilding: false
+      pierce: false
+      trailChance: -1
+      trailEffect: dynamicSpikes
+      shootEffect: shootSmall
+      smokeEffect: shootSmallSmoke
+      buildingDamageMultiplier: 0.01
+      
+}
+}
+]
