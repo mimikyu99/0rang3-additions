@@ -2,10 +2,11 @@ type: mech
 name: Car2
 description: car.
 health: 2148000000
-armor: 22
-speed: 3
+armor: 1
+omniMovement: false
+speed: 4.5
 hitSize: 10
-drag: 1
+drag: 0.9
 outlineColor: 42413e
 
       trailChance: -1
