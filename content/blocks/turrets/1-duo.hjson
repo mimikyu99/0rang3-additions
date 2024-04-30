@@ -1,0 +1,58 @@
+type: "ItemTurret"
+  name: "Dopple"
+  description:"Fires alternating beryllium bullets.."
+ size: 1
+health: 800
+  reload: 55
+recoil:2
+  requirements:[
+beryllium/80
+  graphite/50
+  silicon/30
+]
+  shoot:{
+   type: ShootAlternate
+   shots: 1
+   spread: 3
+   shotDelay: 1
+}
+coolant:{
+type:"ConsumeCoolant"
+  allowGas:false
+allowLiquid:true
+  amount:1
+  }
+inaccuracy:0
+  range:98
+  category:"turret"
+shootSound: shootAlt
+outlineColor:"42413e"
+  research:{
+parent:"core-bastion"
+  requirements:[
+beryllium/300
+  graphite/400
+  silicon/200
+  ]
+  }
+targetGround:true
+  targetAir:true
+  ammoTypes:{
+beryllium:{
+bulletType:"BasicBulletType"
+  width:9
+  height:13
+  speed:4.5
+  trailHeight: 35
+  trailWidth: 9
+  trailColor: 3a8f64
+knockback: 0
+  lifeTime:98
+  collidesGround:true
+  collidesAir:true
+  ammoMultiplier:1
+  damage:12
+}
+}
+base: 1-duo-base
+   
